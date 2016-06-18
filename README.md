@@ -12,6 +12,7 @@ Now we define our decrypt function (which takes a tuple) as: d_K(y_1, y_2) = y_2
 As you can see, for someone to break this encryption they'd have to solve the discrete log problem.
 
 # ELGAMAL OVERVIEW (OVER ELLIPTIC CURVE)
+
 Now I will draw a parallel between the discrete log problem on the finite Integers and our defined addition operator on points on finite elliptic curves. The discrete log is a function that tells us what power a number was raised to in order to obtain a larger number. Raising a number to a power is just repeated multiplication. The addition analog of this is just multiplication, repeated addition of a point. Define ElGamal on an elliptic curve by replacing multiplication with addition, and exponentiation with multiplication:
 
 The restated discrete log problem is:
