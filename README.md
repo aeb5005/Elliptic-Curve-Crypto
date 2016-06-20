@@ -35,4 +35,4 @@ There are also several fast algorithms for factoring integers that are forcing R
 ECC features smaller keys, ciphertexts and signatures, and generates these items relatively fast compared to other methods. The disadvantages of ECC are that it is complex to implement securely. Signing with a broken random number generator compromises the key. Also, 
 
 # IMPLEMENTATION IN C++
-I used the provided C++ code to generate the ECC public keys.
+The provided C++ code can be used to generate ECC public keys
