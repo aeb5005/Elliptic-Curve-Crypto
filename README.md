@@ -36,3 +36,6 @@ ECC features smaller keys, ciphertexts and signatures, and generates these items
 
 # IMPLEMENTATION IN C++
 The provided C++ code can be used to generate ECC public keys
+
+# OUTPUT SCREENSHOT 
+![screenshot](https://imgur.com/Slyco2m.png)
