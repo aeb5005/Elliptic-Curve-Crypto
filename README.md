@@ -30,9 +30,9 @@ This would be easy to reverse if we were operating on a finite group of integers
  # ADVANTAGES AND DISADVANTAGES
 There are several procedures out there to cryptanalyze messages using the ElGamal cryptosystem and other discrete log based cryptosystems. In particular, the ElGamal cryptosystem when used on the integers is vulnerable (for small numbers) to an attack called the Index Calculus. When implemented over an elliptic curve, the ElGamal cryptosystem is not vulnerable to Index Calculus attacks, the technique simply does not work.
 
-There are also several fast algorithms for factoring integers that are forcing RSA users to increase the number of bits used. According to an NSA site (listed in citations), 1024 bit RSA is equivalent to 160 bit Elliptic Curve crypto (although they don't specify an algorithm...), equivalent being the amount of security needed to transmit an 80-bit key for AES encryption. So elliptic curves can reduce "cost" there. 
+There are also several fast algorithms for factoring integers that are forcing RSA users to increase the number of bits used. According to an NSA site (https://web.archive.org/web/20140428203802/http://www.nsa.gov/business/programs/elliptic_curve.shtml), 1024 bit RSA is equivalent to 160 bit Elliptic Curve crypto (although they don't specify an algorithm...), equivalent being the amount of security needed to transmit an 80-bit key for AES encryption. So elliptic curves can reduce "cost" there. 
 
-ECC features smaller keys, ciphertexts and signatures, and generates these items relatively fast compared to other methods. The disadvantages of ECC are that it is complex to implement securely. Signing with a broken random number generator compromises the key. Also, 
+ECC features smaller keys, ciphertexts and signatures, and generates these items relatively fast compared to other methods. The disadvantages of ECC are that it is complex to implement securely. Signing with a broken random number generator compromises the key.  
 
 # IMPLEMENTATION IN C++
 The provided C++ code can be used to generate ECC public keys
